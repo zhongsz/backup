@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": "172AC79B-A86C-4587-8954-86B268C432B6",
+      "title": "HEAD OF THE CLASS\r\nBack to school",
+      "subTitle": "EDUCATION. LEARNING. SUCCESS.",
+      "description": "Education is the most powerful weapon which you can use to change the world. - Nelson Mandela\r\nYou’re off to great places. This is your day! Your mountain is waiting, so get on your way! - Dr. Seuss\r\nTeachers open the door, but you must enter yourself. - Chinese proverb",
+      "relatedCategories": []
+    },
+    {
+      "id": "44276619-953D-4DE3-B04F-0F1625003943",
+      "title": "PORTABILITY ON DEMAND",
+      "subTitle": "COMFORTABLE. EFFICIENT. STYLISH.",
+      "description": "Whether you are at work or at play, Lenovo offers a full array of accessories to enhance your travel experience.\r\nProfessionally designed for comfort, efficiency and style, these accessories keep you mobile.",
+      "relatedCategories": []
+    },
+    {
+      "id": "9CB03348-8860-8B1D-8336-D86484A47207",
+      "title": "NOT JUST A DESKTOP",
+      "subTitle": "PRODUCTIVE. COMFORTABLE. EFFICIENT.",
+      "description": "How do you get the most out of your Lenovo desktop? Lenovo accessories will ensure you reach your full potential when it comes to desktop productivity. The right desktop setup with Lenovo accessories can help\r\nyou get more done comfortably and efficiently.",
+      "relatedCategories": []
+    },
+    {
+      "id": "C5A0FF95-1A26-4158-99DA-857DF9ADE281",
+      "title": "DATA AND ASSET SECURITY",
+      "subTitle": "LOCK IT. FILTER IT. ENCRYPT IT.",
+      "description": "·Each data breach costs a company millions in data recovery, decreased productivity, reputation damage,\r\nloss of customers, and more.\r\n·An FBI survey states that a stolen computer costs a company almost $32,000 per incident.\r\n·Privacy law and regulation offenses cost companies billions of dollars a year for being non-compliant",
+      "relatedCategories": [
+        {
+          "id": "19",
+          "title": "Antiglare"
+        },
+        {
+          "id": "60",
+          "title": "Secure Hard Drive"
+        },
+        {
+          "id": "21",
+          "title": "Privacy Filter - Gold"
+        }
+      ]
+    },
+    {
+      "id": "CCCC6120-9AB4-4658-9A84-0411456B44C8",
+      "title": "INCREASE YOUR PRODUCTIVITY",
+      "subTitle": "FUNCTIONAL. EFFICIENT. PRODUCTIVE.",
+      "description": "Wherever your day takes you, Lenovo accessories can help you instantly increase your productivity. From\r\nergonomic stands and arms to functional headsets, mice and keyboards, our accessories are designed to\r\nhelp you accomplish more.",
+      "relatedCategories": []
+    }
+  ],
+  "isSuccessful": true,
+  "code": 200,
+  "message": null,
+  "isCertificateAuthority": false
+}

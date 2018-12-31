@@ -1,0 +1,48 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "children": [
+        {
+          "id": "14141",
+          "title": "Lenovo S200"
+        },
+        {
+          "id": "14142",
+          "title": "Lenovo S500"
+        },
+        {
+          "id": "14143",
+          "title": "Lenovo S510"
+        }
+      ],
+      "id": "1886",
+      "title": "Lenovo S Traditional Desktop Series"
+    },
+    {
+      "children": [
+        {
+          "id": "14128",
+          "title": "Lenovo S200z"
+        },
+        {
+          "id": "14129",
+          "title": "Lenovo S400z"
+        },
+        {
+          "id": "14130",
+          "title": "Lenovo S405z"
+        },
+        {
+          "id": "14131",
+          "title": "Lenovo S500z"
+        }
+      ],
+      "id": "1891",
+      "title": "Lenovo S AIO Series"
+    }
+  ],
+  "isSuccessful": true,
+  "message": null,
+  "isCertificateAuthority": false
+}

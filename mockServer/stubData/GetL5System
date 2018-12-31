@@ -1,0 +1,40 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "id": "1663",
+      "title": "Commercial Desktop"
+    },
+    {
+      "id": "3182",
+      "title": "ThinkCentre"
+    },
+    {
+      "id": "4166",
+      "title": "NetVista"
+    },
+    {
+      "id": "8814",
+      "title": "Lenovo 62"
+    },
+    {
+      "id": "4161",
+      "title": "WorkPad"
+    },
+    {
+      "id": "1465",
+      "title": "ThinkPad Classic"
+    },
+    {
+      "id": "8812",
+      "title": "Lenovo SureSAS2200"
+    },
+    {
+      "id": "1883",
+      "title": "IdeaPad"
+    }
+  ],
+  "isSuccessful": true,
+  "message": null,
+  "isCertificateAuthority": false
+}

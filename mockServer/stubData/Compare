@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "pn": "4XD0J65079",
+      "url": "http://d1fyvoqprbjuee.cloudfront.net/Audio/Headphones/5f38856b-9149-400b-abbc-78a758eda84d",
+      "title": "Lenovo In Ear Headphone",
+      "price": 70,
+      "currency": "$",
+      "facets": [
+        {
+          "key": "Color",
+          "value": "Black"
+        },
+        {
+          "key": "Connection Type",
+          "value": "3.5mm"
+        },
+        {
+          "key": "Mic Yes/No",
+          "value": "Yes"
+        },
+        {
+          "key": "Over-The-Ear/In-Ear",
+          "value": "In-Ear"
+        },
+        {
+          "key": "Phone Control",
+          "value": "Yes"
+        },
+        {
+          "key": "Stereo/Mono",
+          "value": "Stereo"
+        },
+        {
+          "key": "What's in the Box",
+          "value": "Headphone, Warranty Poster"
+        }
+      ]
+    },
+    {
+      "pn": "4XD0J65080",
+      "url": "http://d1fyvoqprbjuee.cloudfront.net/Audio/Headphones/3f1c37a2-ffcb-4deb-bf48-9d479d0277f1",
+      "title": "Lenovo Over Ear Headphones",
+      "price": 2340,
+      "currency": "$",
+      "facets": [
+        {
+          "key": "Color",
+          "value": "Black"
+        },
+        {
+          "key": "Connection Type",
+          "value": "3.5mm"
+        },
+        {
+          "key": "Mic Yes/No",
+          "value": "Yes"
+        },
+        {
+          "key": "Over-The-Ear/In-Ear",
+          "value": "Over-The-Ear"
+        },
+        {
+          "key": "Phone Control",
+          "value": "Yes"
+        },
+        {
+          "key": "Stereo/Mono",
+          "value": "Stereo"
+        },
+        {
+          "key": "What's in the Box",
+          "value": "Headphone, Warranty Poster"
+        }
+      ]
+    }
+  ],
+  "isSuccessful": true,
+  "code": 200,
+  "message": "sample string 2",
+  "isCertificateAuthority": false
+}

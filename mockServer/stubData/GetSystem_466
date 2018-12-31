@@ -1,0 +1,192 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "children": [
+        {
+          "id": "11421",
+          "title": "NetVista A50"
+        },
+        {
+          "id": "11422",
+          "title": "NetVista A60"
+        },
+        {
+          "id": "11436",
+          "title": "NetVista A Series"
+        },
+        {
+          "id": "11437",
+          "title": "Netvista A20"
+        },
+        {
+          "id": "11438",
+          "title": "NetVista A20i， PIKA A20i"
+        },
+        {
+          "id": "11439",
+          "title": "NetVista A20i"
+        },
+        {
+          "id": "11440",
+          "title": "NetVista A21"
+        },
+        {
+          "id": "11441",
+          "title": "NetVista A21， NetVista A21i， NetVista A2"
+        },
+        {
+          "id": "11442",
+          "title": "NetVista A21，NetVista A21i"
+        },
+        {
+          "id": "11443",
+          "title": "NetVista， NetVista A22， NetVista A22p"
+        },
+        {
+          "id": "11444",
+          "title": "NetVista A22， NetVista M42"
+        },
+        {
+          "id": "11445",
+          "title": "NetVista A22p， NetVista A30， NetVista A3"
+        },
+        {
+          "id": "11446",
+          "title": "NetVista A22p"
+        },
+        {
+          "id": "11447",
+          "title": "NetVista 2200w"
+        },
+        {
+          "id": "11448",
+          "title": "NetVista A30"
+        },
+        {
+          "id": "11449",
+          "title": "NetVista A30/A30p"
+        },
+        {
+          "id": "11450",
+          "title": "NetVista A30p"
+        },
+        {
+          "id": "11451",
+          "title": "NetVista A40"
+        },
+        {
+          "id": "11452",
+          "title": "NetVisa， NetVista A40， NetVista A40i"
+        },
+        {
+          "id": "11453",
+          "title": "NetVista A40/A40p"
+        },
+        {
+          "id": "11454",
+          "title": "NetVista， NetVista A40"
+        },
+        {
+          "id": "11455",
+          "title": "NetVista， NetVista A40， NetVista A40i"
+        },
+        {
+          "id": "11456",
+          "title": "NetVista A40p"
+        },
+        {
+          "id": "6121",
+          "title": "NetVista A60i"
+        }
+      ],
+      "id": "1572",
+      "title": "NetVista A Series"
+    },
+    {
+      "children": [
+        {
+          "id": "6136",
+          "title": "NetVista W50"
+        },
+        {
+          "id": "6137",
+          "title": "NetVista N2200"
+        },
+        {
+          "id": "6138",
+          "title": "NetVista N2800"
+        }
+      ],
+      "id": "2848",
+      "title": "NetVista Think Client"
+    },
+    {
+      "children": [
+        {
+          "id": "6135",
+          "title": "NetVista X40"
+        },
+        {
+          "id": "6140",
+          "title": "NetVista X41"
+        }
+      ],
+      "id": "2849",
+      "title": "NetVista X Series"
+    },
+    {
+      "children": [
+        {
+          "id": "6120",
+          "title": "NetVista M41"
+        },
+        {
+          "id": "6122",
+          "title": "NetVista M41/M42"
+        },
+        {
+          "id": "6123",
+          "title": "NetVista M41/X41"
+        },
+        {
+          "id": "6124",
+          "title": "NetVista M42"
+        }
+      ],
+      "id": "2852",
+      "title": "NetVista M Series"
+    },
+    {
+      "children": [
+        {
+          "id": "6117",
+          "title": "NetVista N70"
+        }
+      ],
+      "id": "2853",
+      "title": "NetVista N Series"
+    },
+    {
+      "children": [
+        {
+          "id": "6116",
+          "title": "NetVista S40"
+        },
+        {
+          "id": "6118",
+          "title": "NetVista S40p"
+        },
+        {
+          "id": "6119",
+          "title": "NetVista S42"
+        }
+      ],
+      "id": "2854",
+      "title": "NetVista S Series"
+    }
+  ],
+  "isSuccessful": true,
+  "message": null,
+  "isCertificateAuthority": false
+}

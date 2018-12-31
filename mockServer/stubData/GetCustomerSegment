@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "data": [
+    "BP",
+    "RL",
+    "WEB"
+  ],
+  "isSuccessful": true,
+  "message": null,
+  "isCertificateAuthority": false
+}

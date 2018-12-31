@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "children": [
+        {
+          "id": "14140",
+          "title": "Brazil 1"
+        }
+      ],
+      "id": "1887",
+      "title": "Lenovo 62 Series"
+    }
+  ],
+  "isSuccessful": true,
+  "message": null,
+  "isCertificateAuthority": false
+}

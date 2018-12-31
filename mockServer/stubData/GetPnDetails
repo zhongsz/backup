@@ -1,0 +1,164 @@
+{
+  "code": 200,
+  "data": {
+    "pn": "4X30J32037",
+    "language": "English US [en-us]",
+    "title": "ThinkPad Helix Folio Keyboard Portuguese",
+    "category": {
+      "id": 52,
+      "title": "Laptop Stands"
+    },
+    "solution": {
+      "id": "172AC79B-A86C-4587-8954-86B268C432B6",
+      "title": "Education"
+    },
+    "footnote": "Support unrelated to a warranty issue may be subject to additional charges. For systems with Limited Onsite Service Limited Warranties, these machines are designed to be repaired during the applicable warranty period primarily.",
+    "views": 6332,
+    "EOF": "2016-8-30",
+    "isNew": true,
+    "featureBenefit": "",
+    "marketingMessage": "The ThinkPad Helix Folio Keyboard is a folio type case with an integrated keyboard that provides convenient, stylish functionality and production. The case converts into a stand providing a laptop mode when using the integrated keyboard. A built in track pad provides users a tactile way to manage and use legacy office programs. A high quality, rigid material with a micro fiber lining protects both the front and back of the tablet. (Does not work with Smart Card reader models)",
+    "packingList": "Keyboard, Mouse, CD, Pub, 2 AAA Battery, 2 AA Battery, Dongle",
+    "altText": "",
+    "metaTitle": "",
+    "metaDescription": "",
+    "shortMarketingDescription": "The ThinkPad Helix Folio Keyboard is a folio type case with an integrated keyboard that provides convenient, stylish functionality and production. The case converts into a stand providing a laptop mode when using the integrated keyboard. A built in track pad provides users a tactile way to manage and use legacy office programs. A high quality, rigid material with a micro fiber lining protects both the front and back of the tablet. (Does not work with Smart Card reader models)",
+    "topFeature": [
+      "High performance",
+      "Easy to share",
+      "Beautiful beyond expression",
+      "Better than best"
+    ],
+    "createdBy": "system",
+    "modifyBy": null,
+    "createdTime": "2016-05-09T12:48:01",
+    "modifyTime": "0001-01-01T00:00:00",
+    "price": 860,
+    "currency": "$",
+    "eol": 1466154751570,
+    "isNew": true,
+    "fileList": [
+      {
+        "imageFacet": "Solution photo",
+        "url": "http://z.k1982.com/show_img/201303/2013033002382538.jpg",
+        "type": "Photo"
+      },
+      {
+        "imageFacet": "Right",
+        "url": "http://z.k1982.com/show_img/201303/2013033002382678.jpg",
+        "type": "Photo"
+      },
+      {
+        "imageFacet": "Life style",
+        "url": "http://gb.cri.cn/mmsource/images/2006/12/14/bc061214039.jpg",
+        "type": "Photo"
+      },
+      {
+        "imageFacet": "Front",
+        "url": "http://z.k1982.com/show_img/201303/2013033002382519.jpg",
+        "type": "Photo"
+      },
+      {
+        "imageFacet": "Left",
+        "url": "http://z.k1982.com/show_img/201303/2013033002382697.jpg",
+        "type": "Photo"
+      },
+      {
+        "imageFacet": "Bottom",
+        "url": "http://z.k1982.com/show_img/201303/2013033002382675.jpg",
+        "type": "Photo"
+      }
+    ],
+    "facets": [
+      {
+        "key": "Brand",
+        "value": "Lenovo"
+      },
+      {
+        "key": "Earpad Type",
+        "value": "Over ear"
+      },
+      {
+        "key": "Connection type",
+        "value": "USB, 3.5mm"
+      },
+      {
+        "key": "Mic",
+        "value": "YES"
+      },
+      {
+        "key": "Stereo/Mono",
+        "value": "Stereo"
+      },
+      {
+        "key": "Color",
+        "value": "Black"
+      },
+      {
+        "key": "Phone Control",
+        "value": "YES"
+      }
+    ],
+    "category": {
+      "id": "17",
+      "title": "Headsets"
+    },
+    "solution": {
+      "id": "D2B11EBF-BAFB-48EE-920D-E060B447272B",
+      "title": "Gaming"
+    },
+    "compatibility": {
+      "machineTypes": [
+        {
+          "id": "20D9",
+          "title": "ThinkPad T",
+          "footNote": ""
+        },
+        {
+          "id": "20DU",
+          "title": "LinkPad L",
+          "footNote": ""
+        },
+        {
+          "id": "3660",
+          "title": "InkPad I",
+          "footNote": ""
+        },
+        {
+          "id": "20DA",
+          "title": "PinkPad P",
+          "footNote": ""
+        },
+        {
+          "id": "20BN",
+          "title": "FlinkPad F",
+          "footNote": ""
+        },
+        {
+          "id": "20BQ",
+          "title": "WinkPad W",
+          "footNote": ""
+        },
+        {
+          "id": "20DB",
+          "title": "SinkPad S",
+          "footNote": ""
+        },
+        {
+          "id": "3662",
+          "title": "ThinkPad",
+          "footNote": ""
+        }
+      ],
+      "operatingSystems": [
+        "Window 95",
+        "Window XP",
+        "Window 8",
+        "Window 10"
+      ]
+    }
+  },
+  "isSuccessful": true,
+  "message": null,
+  "isCertificateAuthority": false
+}

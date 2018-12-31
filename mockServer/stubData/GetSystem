@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "children": [
+        {
+          "id": "318",
+          "title": "LENOVO NOTEBOOKS"
+        },
+        {
+          "id": "466",
+          "title": "THINKPAD NOTEBOOKS"
+        }
+      ],
+      "id": "1",
+      "title": "LAPTOPS + ULTRABOOKS"
+    },
+    {
+      "children": [
+        {
+          "id": "884",
+          "title": "LENOVO DESKTOPS"
+        },
+        {
+          "id": "885",
+          "title": "THINKCENTRE DESKTOPS"
+        }
+      ],
+      "id": "3",
+      "title": "DESKTOPS + ALL-IN-ONES"
+    },
+    {
+      "children": [
+        {
+          "id": "22",
+          "title": "LENOVO TABLETS"
+        },
+        {
+          "id": "21",
+          "title": "THINKPAD TABLETS"
+        }
+      ],
+      "id": "2",
+      "title": "TABLETS"
+    },
+    {
+      "children": [
+        {
+          "id": "41",
+          "title": "THINKSTATION"
+        }
+      ],
+      "id": "4",
+      "title": "WORKSTATIONS"
+    }
+  ],
+  "isSuccessful": true,
+  "code": 200,
+  "message": null,
+  "isCertificateAuthority": false
+}

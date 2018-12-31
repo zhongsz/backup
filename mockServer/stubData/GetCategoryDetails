@@ -1,0 +1,83 @@
+{
+  "data": [
+    {
+      "id": "5",
+      "title": "Docking",
+      "subTitle": "",
+      "description": "I am a description description description description description",
+      "relatedSystems": [
+        {
+          "id": "22TP2CP0112",
+          "title": "ThinkPad X1 Tablet"
+        },
+        {
+          "id": "22TP2WPWP40",
+          "title": "ThinkPad P40 Yoga"
+        },
+        {
+          "id": "22TP2TTT40A",
+          "title": "Thinkpad T400"
+        },
+        {
+          "id": "22TP2CP0111",
+          "title": "Helix"
+        }
+      ],
+      "relatedSolutions": [
+        {
+          "id": "172AC79B-A86C-4587-8954-86B268C432B6",
+          "title": "Education"
+        },
+        {
+          "id": "44276619-953D-4DE3-B04F-0F1625003943",
+          "title": "Mobility"
+        },
+        {
+          "id": "C5A0FF95-1A26-4158-99DA-857DF9ADE281",
+          "title": "Security"
+        },
+        {
+          "id": "CCCC6120-9AB4-4658-9A84-0411456B44C8",
+          "title": "Productivity"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Audio",
+      "subTitle": "",
+      "description": "I am a description description description description description",
+      "relatedSystems": [],
+      "relatedSolutions": []
+    },
+    {
+      "id": "2",
+      "title": "Docking",
+      "subTitle": "",
+      "description": "I am a description",
+      "relatedSystems": [
+        {
+          "id": "22TP2CP0112",
+          "title": "ThinkPad X1 Tablet"
+        },
+        {
+          "id": "22TP2WPWP40",
+          "title": "ThinkPad P40 Yoga"
+        },
+        {
+          "id": "22TP2TTT40A",
+          "title": "Thinkpad T400"
+        },
+        {
+          "id": "22TP2CP0111",
+          "title": "Helix"
+        }
+      ],
+      "relatedSolutions": []
+    }
+  ],
+  "isSuccessful": true,
+  "code": 200,
+  "message": null,
+  "isCertificateAuthority": false
+}
