@@ -6,7 +6,7 @@ import { fetch } from './actions';
 import { selectUsers, selectIsLoading, selectIsFetched } from './selectors';
 import { User } from './model';
 
-import Container from '../../components/Container';
+import {Container,Top, Bottom, Center, Left, Right} from '../../components/Container';
 import Header from '../../components/Header';
 import Preloader from '../../components/Preloader';
 import List from '../../components/List';
@@ -29,20 +29,30 @@ class Users extends React.Component<UsersPageProps, void> {
 
     return (
       <Container>
+        <Top>
         <DivFlex><Header>复盘</Header><SubTitle> - 我的知识回顾</SubTitle></DivFlex>
-        {isLoading && <Preloader />}
-        <List>
-          {users.map((item, idx) => {
-            return (
-              <Card
-                key={idx}
-                title={item.nm}
-                label={item.pp}
-                />
-            );
-          })}
-        </List>
+        </Top>
+        <Center>
+          <Left>
+            {isLoading && <Preloader />}
+            <List>
+              {users.map((item, idx) => {
+                return (
+                  <Card
+                    key={idx}
+                    title={item.nm}
+                    label={item.pp}
+                    />
+                );
+              })}
+            </List>
+          </Left>
+          <Right>
+
+          </Right>        
         {!isFetched && <Button onClick={onUsersFetch}>Fetch</Button>}
+        </Center>
+        <Bottom>© 2019	| Proudly Powered by HIPIXZ | ZHONG</Bottom>
       </Container>
     );
   }

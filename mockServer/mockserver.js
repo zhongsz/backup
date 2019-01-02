@@ -117,7 +117,7 @@ app.get('/api/SmartFind/GetSystem', function (req, res) {
   U.delayedResponse(res, fileData);
 })
 
-app.all('/api/SmartFind/:apiName', function (req, res) {
+app.all('/api/Review/:apiName', function (req, res) {
   var apiName = req.params.apiName,
       path = __dirname + '/stubData/' + apiName,
       fileData = JSON.parse(fs.readFileSync(path));
