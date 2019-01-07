@@ -1,6 +1,7 @@
 {
   "code": 200,
-  "data":[{id:'1',name:'salesforce 常见问题汇总',createdDate:'2018-11-12'},{id:'2',name:'asp.net session stateserver ',createdDate:'2018-5-3'},{id:'2',name:'Jquery 常用不熟语法',createdDate:'2018-2-9'}] ,
+  "data":[{"id":"1","name":"salesforce 常见问题汇总","createdDate":"2018-11-12"},{"id":"2","name":"asp.net session stateserver ","createdDate":"2018-5-3"},{"id":"2","name":"Jquery 常用不熟语法","createdDate":"2018-2-9"}],
   "isSuccessful": true,
-  "message": null
+  "message": null,
+  "isCertificateAuthority": false
 }

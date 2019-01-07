@@ -2,11 +2,11 @@ import * as React from 'react';
 import { createStructuredSelector } from 'reselect';
 const connect = require('react-redux').connect;
 
-import { fetch } from './actions';
+import { fetch, fetchResent } from './actions';
 import { selectUsers, selectIsLoading, selectIsFetched } from './selectors';
 import { User } from './model';
 
-import {Container,Top, Bottom, Center, Left, Right} from '../../components/Container';
+import {Container,Top, Bottom, Center, Left, Right, Body} from '../../components/Container';
 import Header from '../../components/Header';
 import Preloader from '../../components/Preloader';
 import List from '../../components/List';
@@ -20,39 +20,53 @@ interface UsersPageProps extends React.Props<Users> {
   isLoading: boolean;
   isFetched: boolean;
   onUsersFetch: () => void;
+  onResentFetch:()=> void;
 };
 
 class Users extends React.Component<UsersPageProps, void> {
   public render(): React.ReactElement<{}> {
 
-    const { users, isLoading, isFetched, onUsersFetch } = this.props;
+    const { users, isLoading, isFetched, onUsersFetch,onResentFetch } = this.props;
 
     return (
       <Container>
-        <Top>
-        <DivFlex><Header>复盘</Header><SubTitle> - 我的知识回顾</SubTitle></DivFlex>
-        </Top>
-        <Center>
-          <Left>
-            {isLoading && <Preloader />}
-            <List>
-              {users.map((item, idx) => {
-                return (
-                  <Card
-                    key={idx}
-                    title={item.nm}
-                    label={item.pp}
-                    />
-                );
-              })}
-            </List>
-          </Left>
-          <Right>
-
-          </Right>        
-        {!isFetched && <Button onClick={onUsersFetch}>Fetch</Button>}
-        </Center>
-        <Bottom>© 2019	| Proudly Powered by HIPIXZ | ZHONG</Bottom>
+        <Body>
+          <Top>
+            <DivFlex><Header>LPA</Header><SubTitle> - LPA</SubTitle></DivFlex>
+          </Top>
+          <Center>
+            <Left>
+              {isLoading && <Preloader />}
+              <List>
+                {users.map((item, idx) => {
+                  return (
+                    <Card
+                      key={idx}
+                      title={item.nm}
+                      label={item.pp}
+                      />
+                  );
+                })}
+              </List>
+            </Left>
+            <Right>
+              {!isFetched && <Button onClick={onUsersFetch}>Fetch</Button>}
+              <Button onClick={onResentFetch}>FetchResent</Button>
+              <List>
+                {users.map((item, idx) => {
+                  return (
+                    <Card
+                      key={idx}
+                      title={item.nm}
+                      label={item.pp}
+                      />
+                  );
+                })}
+              </List>
+            </Right>        
+          </Center>
+          <Bottom>© 2019	| Proudly Powered by HIPIXZ | ZHONG</Bottom>
+        </Body>
       </Container>
     );
   }
@@ -70,6 +84,9 @@ function mapDispatchToProps(dispatch: any) {
   return {
     onUsersFetch: (): void => {
       dispatch(fetch());
+    },
+    onResentFetch:():void=>{
+      dispatch(fetchResent());
     }
   };
 }

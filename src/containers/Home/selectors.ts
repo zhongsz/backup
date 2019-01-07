@@ -17,10 +17,16 @@ const selectIsFetched = () => createSelector(
   usersState => usersState.get('isFetched')
 );
 
+const selectRecents=()=>createSelector(
+  getHomeDomain(),
+  usersState => usersState.get('recents')
+);
+
 export {
   selectUsers,
   selectIsLoading,
-  selectIsFetched
+  selectIsFetched,
+  selectRecents
 };
 
 export default getHomeDomain;

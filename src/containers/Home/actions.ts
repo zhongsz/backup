@@ -20,3 +20,23 @@ export const fetchError = (error: Error) => {
     payload: error
   };
 };
+
+export const fetchResent = () => {
+  return {
+    type: at.RESENT_FETCH
+  };
+};
+
+export const fetchResentSuccess = (result: Array<User>) => {
+  return {
+    type: at.RESENT_FETCH_SUCCESS,
+    payload: result
+  };
+};
+
+export const fetchResentError = (error: Error) => {
+  return {
+    type: at.RESENT_FETCH_ERROR,
+    payload: error
+  };
+};

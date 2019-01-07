@@ -5,3 +5,11 @@ export const fetchUsers = (id: string) => {
     })
     .then(result => result);
 };
+
+export const fetchResent = (id: string) => {
+  return fetch('http://localhost:8080/api/Review/getrecents')
+    .then(res => {
+      return res.json();
+    })
+    .then(result => result);
+};
