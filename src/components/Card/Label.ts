@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Label = styled.span`
+const Label = styled.a`
   color: #999;
 `;
 

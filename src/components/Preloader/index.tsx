@@ -1,6 +1,8 @@
 import * as React from 'react';
 
 import Text from './Text';
+import Loading from './Loading';
+
 
 export interface PreloaderProps {
   text?: string
@@ -12,7 +14,7 @@ const defaultProps: Partial<PreloaderProps> = {
 
 export const Preloader: React.StatelessComponent<PreloaderProps> = ({ text }) => {
   return (
-    <Text>{text}</Text>
+    <Loading> <Text>{text}</Text></Loading>
   );
 };
 

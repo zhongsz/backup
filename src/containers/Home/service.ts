@@ -7,7 +7,7 @@ export const fetchUsers = (id: string) => {
 };
 
 export const fetchResent = (id: string) => {
-  return fetch('http://localhost:8080/api/Review/getrecents')
+  return fetch('http://localhost:8080/api/Review/getrecents?id='+id)
     .then(res => {
       return res.json();
     })

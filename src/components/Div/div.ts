@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-const divFlex = styled.div`
-  color: #999;
+const NormalDiv = styled.div`
+  padding:0 10px;
+  width:100%;
 `;
 
-export default divFlex;
+export default NormalDiv;

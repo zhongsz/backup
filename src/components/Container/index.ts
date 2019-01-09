@@ -56,7 +56,7 @@ export const Left = styled.div`
   margin: 0;
   padding:0;
   line-height:1.42857143;
-  background:white;
+  /* background:white; */
   flex:1 0 auto;
 `;
 
@@ -64,7 +64,7 @@ export const Right = styled.div`
   margin: 0;
   padding:0;
   line-height:1.42857143;
-  background:white;
+  /* background:white; */
   flex:3 0 auto;
 `;
 export default Container;

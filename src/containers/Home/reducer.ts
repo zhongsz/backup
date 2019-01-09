@@ -6,7 +6,8 @@ import { UserAction } from './model';
 const initialState = fromJS({
   users: [],
   isLoading: false,
-  isFetched: false
+  isFetched: false,
+  recents:{Articles:[],Archives:[]}
 });
 
 export default (state = initialState, action: UserAction) => {
@@ -26,6 +27,21 @@ export default (state = initialState, action: UserAction) => {
         .set('isLoading', false)
         .set('isFetched', false)
         .set('users', initialState.get('users'));
+    case at.RESENT_FETCH:
+        return state
+          .set('isLoading', true)
+          .set('isFetched', false)
+          .set('recents', initialState.get('recents'));
+    case at.RESENT_FETCH_SUCCESS:
+          return state
+            .set('isLoading', false)
+            .set('isFetched', true)
+            .set('recents', fromJS(action.payload));
+    case at.RESENT_FETCH_ERROR:
+          return state
+            .set('isLoading', false)
+            .set('isFetched', false)
+            .set('recents', initialState.get('recents'));
     default:
       return state;
   }

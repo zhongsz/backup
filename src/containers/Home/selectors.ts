@@ -19,7 +19,7 @@ const selectIsFetched = () => createSelector(
 
 const selectRecents=()=>createSelector(
   getHomeDomain(),
-  usersState => usersState.get('recents')
+  usersState => usersState.get('recents').toJS()
 );
 
 export {
