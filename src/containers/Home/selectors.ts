@@ -22,11 +22,17 @@ const selectRecents=()=>createSelector(
   usersState => usersState.get('recents').toJS()
 );
 
+const selectArticle=()=>createSelector(
+  getHomeDomain(),
+  usersState => usersState.get('article').toJS()
+);
+
 export {
   selectUsers,
   selectIsLoading,
   selectIsFetched,
-  selectRecents
+  selectRecents,
+  selectArticle
 };
 
 export default getHomeDomain;

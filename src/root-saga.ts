@@ -1,8 +1,9 @@
-import { sampleWatcher, sampleRecentListWatcher } from './containers/Home/saga';
+import { sampleWatcher, sampleRecentListWatcher, sampleArticleListWatcher } from './containers/Home/saga';
 
 export default function* rootSaga() {
   yield [
     sampleWatcher(),
-    sampleRecentListWatcher()
+    sampleRecentListWatcher(),
+    sampleArticleListWatcher()
   ];
 }

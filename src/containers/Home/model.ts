@@ -29,3 +29,7 @@ export interface Recents{
   Articles:Array<Article>,
   Archives:Array<Archive>
 }
+
+export interface ArticleResponse{
+  Article:Article,
+}

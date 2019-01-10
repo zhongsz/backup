@@ -44,27 +44,31 @@ export const Bottom = styled.div`
 
 export const Center = styled.div`
   margin: 0;
-  padding:0 10%;
+  padding:0;
   display:flex;
   flex-direction:row;
   margin-top:20px;
   min-height:300px;
   flex:5 0 auto;
+  width:80%;
+  margin-left:10%;
+  position:relative;
 `;
 
 export const Left = styled.div`
   margin: 0;
   padding:0;
   line-height:1.42857143;
+  width:300px;
   /* background:white; */
-  flex:1 0 auto;
+  /* flex:1 1 auto; */
 `;
 
 export const Right = styled.div`
-  margin: 0;
+  margin: 20px 0;
   padding:0;
   line-height:1.42857143;
   /* background:white; */
-  flex:3 0 auto;
+  flex:1 1 auto;
 `;
 export default Container;

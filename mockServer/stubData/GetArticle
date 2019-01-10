@@ -1,0 +1,8 @@
+{
+  "code": 200,
+  "Article":{"id":"1","name":"salesforce 常见问题汇总","createdDate":"2018-11-12","introduction":"分配外部系统调用sales force API权限,处理方式:在对应的profile里面配置API Enable,然后把对应的Object权限分配给profi","DetailInfo":"分配外部系统调用sales force API权限,处理方式:在对应的profile里面配置API Enable,然后把对应的Object权限分配给profile.但是这时候发现这个用户依旧调用不了API.Error Message Like this is not supported.If you are attempting to use a custom object, be sure to append the ‘__c’ after the entity name. Please reference your WSDL or the describe call for the appropriate names.May be you lost grant the apttus package for this user. try to grant the all apttus package to this user in user page. then success","creator":"zhong"},
+  "isSuccessful": true,
+  "message": null,
+  "isCertificateAuthority": false
+}
+  

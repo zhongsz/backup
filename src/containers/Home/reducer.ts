@@ -7,7 +7,8 @@ const initialState = fromJS({
   users: [],
   isLoading: false,
   isFetched: false,
-  recents:{Articles:[],Archives:[]}
+  recents:{Articles:[],Archives:[]},
+  article:{Article:{}}
 });
 
 export default (state = initialState, action: UserAction) => {
@@ -31,7 +32,7 @@ export default (state = initialState, action: UserAction) => {
         return state
           .set('isLoading', true)
           .set('isFetched', false)
-          .set('recents', initialState.get('recents'));
+          .set('recents', state.get('recents'));
     case at.RESENT_FETCH_SUCCESS:
           return state
             .set('isLoading', false)
@@ -42,6 +43,20 @@ export default (state = initialState, action: UserAction) => {
             .set('isLoading', false)
             .set('isFetched', false)
             .set('recents', initialState.get('recents'));
+    case at.ARTICLE_FETCH_CONTENT:
+    return state
+          .set("isLoading",false)
+          .set("article",initialState.get('article'));
+    case at.ARTICLE_FETCH_CONTENT_SUCCESS:
+          return state
+            .set('isLoading', false)
+            .set('isFetched', true)
+            .set('article', fromJS(action.payload));
+    case at.ARTICLE_FETCH_CONTENT_ERROR:
+          return state
+            .set('isLoading', false)
+            .set('isFetched', false)
+            .set('article', initialState.get('article'));     
     default:
       return state;
   }

@@ -1,9 +1,9 @@
 import { call, put, take } from 'redux-saga/effects';
 
-import { fetchUsers, fetchResent } from './service';
+import { fetchUsers, fetchResent, fetchContentService } from './service';
 import { actionTypes as at } from './constants';
-import { fetchSuccess, fetchError, fetchResentSuccess, fetchResentError } from './actions';
-import { User, Article } from './model';
+import { fetchSuccess, fetchError, fetchResentSuccess, fetchResentError, fetchContentError, fetchContentSuccess } from './actions';
+import { User, Article, ArticleResponse } from './model';
 
 export function* fetchUsersList(id: string) {
   try {
@@ -36,7 +36,26 @@ export function* fetchRecentList(id: string) {
 export function* sampleRecentListWatcher() {
   while (true) {
     const { id } = yield take(at.RESENT_FETCH);
+    //const { articleId } = yield take(at.ARTICLE_FETCH_CONTENT);
 
     yield call(fetchRecentList, id);
+    //yield call(fetchArticleList, articleId);
+  }
+}
+
+export function* sampleArticleListWatcher() {
+  while (true) {
+    const { articleId } = yield take(at.ARTICLE_FETCH_CONTENT);
+    yield call(fetchArticleList, articleId);
+  }
+}
+
+export function* fetchArticleList(id: string) {
+  try {
+    const result:ArticleResponse = yield call(fetchContentService, id);
+
+    yield put(fetchContentSuccess(result));
+  } catch (err) {
+    yield put(fetchContentError(err));
   }
 }

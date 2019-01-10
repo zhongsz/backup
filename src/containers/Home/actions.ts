@@ -1,5 +1,5 @@
 import { actionTypes as at } from './constants';
-import { User, Article } from './model';
+import { User, ArticleResponse } from './model';
 
 export const fetch = () => {
   return {
@@ -27,7 +27,7 @@ export const fetchResent = () => {
   };
 };
 
-export const fetchResentSuccess = (result: Array<Article>) => {
+export const fetchResentSuccess = (result: any) => {
   return {
     type: at.RESENT_FETCH_SUCCESS,
     payload: result
@@ -44,12 +44,27 @@ export const fetchResentError = (error: Error) => {
 export const fetchContent = (id:string) => {
   console.log({id});
   return {
-    type: at.RESENT_FETCH,
+    type: at.ARTICLE_FETCH_CONTENT,
     id:id
   };
 };
 
-export const fetchRecentArticlesSuccess = (result: Array<Article>) => {
+export const fetchContentSuccess = (result: ArticleResponse) => {
+  return {
+    type: at.ARTICLE_FETCH_CONTENT_SUCCESS,
+    payload: result
+  };
+};
+
+export const fetchContentError = (error: Error) => {
+
+  return {
+    type: at.ARTICLE_FETCH_CONTENT_ERROR,
+    payload: error
+  };
+};
+
+export const fetchRecentArticlesSuccess = (result: any) => {
   return {
     type: at.RESENT_FETCH_SUCCESS,
     payload: result
